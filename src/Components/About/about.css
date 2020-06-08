@@ -56,3 +56,11 @@ a:hover {
   max-width: 100%;
   height: auto;
 }
+
+.Hire-me {
+  color: #f6f7fa !important;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #f97e5d !important;
+  border-color: #f97e5d !important;
+}

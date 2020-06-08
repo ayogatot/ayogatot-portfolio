@@ -1,5 +1,5 @@
 import React from "react";
-import { Row, Col, Container } from "reactstrap";
+import { Row, Col, Container, Button } from "reactstrap";
 
 import Note from "../../assets/images/notebook.jpg";
 import Team from "../../assets/images/team.png";
@@ -41,6 +41,14 @@ function About() {
             />
             <span className="Me-2">Fast Learner</span>
           </div>
+          <a
+            class="btn Hire-me mt-4"
+            href="https://drive.google.com/file/d/1w_CPNy5ucgiZb8ttBeJQZcvE_fA2iJLz/view"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Download CV
+          </a>
         </Col>
       </Row>
       <Row className="pt-5">

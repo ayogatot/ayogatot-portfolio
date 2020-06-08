@@ -11,8 +11,11 @@ function Home() {
         <Header />
         <Jumbotron />
       </div>
-      <div className="main-bg-2">
+      <div id="about-me" className="main-bg-2">
         <AboutSection />
+      </div>
+      <div className="main-bg-1">
+        <Jumbotron />
       </div>
     </Fragment>
   );
