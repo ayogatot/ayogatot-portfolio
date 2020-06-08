@@ -1,6 +1,7 @@
 import React, { Fragment } from "react";
 import Header from "../../Components/Header/Header";
 import Jumbotron from "../../Components/Jumbotron/Jumbotron";
+import AboutSection from "../../Components/About/About";
 
 import "./Home.css";
 function Home() {
@@ -11,7 +12,7 @@ function Home() {
         <Jumbotron />
       </div>
       <div className="main-bg-2">
-        <p>Hello</p>
+        <AboutSection />
       </div>
     </Fragment>
   );

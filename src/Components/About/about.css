@@ -1,0 +1,58 @@
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: inherit;
+}
+
+.py-10 {
+  padding-top: 4rem !important;
+  padding-bottom: 4rem !important;
+}
+
+.Title {
+  color: #f6f7fa;
+}
+
+.Me-1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 37pt;
+  font-weight: bold;
+}
+
+.Me-2 {
+  font-family: "Poppins", sans-serif;
+}
+
+.About-P1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 37pt;
+  font-weight: bold;
+}
+
+.About-P2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 17pt;
+}
+
+.Contact {
+  color: #f97e5d;
+  font-size: 19pt;
+}
+
+.Contact-2 {
+  font-size: 19pt;
+}
+
+.Image-skill {
+  width: 45px;
+  height: 45px;
+}
+
+.Image {
+  margin-top: 5.5rem;
+  border-radius: 5px;
+  max-width: 100%;
+  height: auto;
+}

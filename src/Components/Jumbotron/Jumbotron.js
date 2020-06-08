@@ -10,15 +10,15 @@ function Jumbotron() {
         <Col className="mt-auto mb-auto Title" md="6">
           <p className="P1">Hello !</p>
           <p className="P2">I'm Azerino Y. Gatot S.</p>
-          <p className="P3">Freelance, Mobile and Website Developer</p>
+          <p className="P3">Freelancer, Mobile and Website Developer</p>
           <p className="P4">
-            There is no code like no code. That is, a solution that involves no
-            code at all is often the best solution.
+            " The alternative to good design is always bad design. There is no
+            such thing as no design. " - Adam Judge
           </p>
           <Button className="Hire-me">Hire Me</Button>
         </Col>
         <Col className="ml-auto" md="6">
-          <img className="ml-5" src={Me} alt="Me" />
+          <img className="Me" src={Me} alt="Me" />
         </Col>
       </Row>
     </Container>

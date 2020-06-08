@@ -19,11 +19,11 @@ function Header() {
 
   return (
     <Container>
-      <Navbar light expand="md">
+      <Navbar light expand="md" className="pb-5">
         <NavbarBrand href="/">
           <span className="Brand-text">ayogatot</span>
         </NavbarBrand>
-        <NavbarToggler onClick={toggle} className="mr-2 " />
+        <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto mr-4" navbar>
             <NavItem>
