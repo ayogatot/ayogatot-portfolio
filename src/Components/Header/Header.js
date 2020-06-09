@@ -31,11 +31,11 @@ function Header() {
                 <span className="Nav-text">About me</span>
               </NavLink>
             </NavItem>
-            <NavItem>
-              <NavLink target="_blank" href="#portfoilio">
+            {/* <NavItem>
+              <NavLink href="#portfoilio">
                 <span className="Nav-text">Portfolio</span>
               </NavLink>
-            </NavItem>
+            </NavItem> */}
             <NavItem>
               <NavLink target="_blank" href="https://github.com/ayogatot">
                 <span className="Nav-text">GitHub</span>

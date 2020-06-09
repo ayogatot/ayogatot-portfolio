@@ -1,5 +1,5 @@
 import React from "react";
-import { Row, Col, Container, Button } from "reactstrap";
+import { Row, Col, Container } from "reactstrap";
 
 import Note from "../../assets/images/notebook.jpg";
 import Team from "../../assets/images/team.png";
@@ -10,22 +10,20 @@ import "./about.css";
 
 function About() {
   return (
-    <Container className="py-10">
+    <Container className="a-py-10">
       <Row>
         <Col md="6">
           <img className="Image" src={Note} alt="Note" />
         </Col>
         <Col className="mx-auto Title" md="6">
           <p className="Me-1">About Me</p>
-          <p>
+          <p className="Me-3">
             Mobile and Web Developer from Indonesia with a passion for
-            challenging and learning everything.
+            challenging and learning everything. Still have 1+ years experience
+            but already hands on many project like Company Profile, Education
+            Apps, Admin Dashboard etc.
           </p>
-          <div className="d-flex align-items-center  pt-4">
-            <img className="Image-skill mr-2" src={Team} alt="Team Work" />
-            <span className="Me-2">Team Work</span>
-          </div>
-          <div className="d-flex align-items-center  pt-4">
+          <div className="d-flex align-items-center  pt-3">
             <img
               className="Image-skill mr-2"
               src={Thumb}
@@ -40,6 +38,10 @@ function About() {
               alt="Fast Learner"
             />
             <span className="Me-2">Fast Learner</span>
+          </div>
+          <div className="d-flex align-items-center  pt-4">
+            <img className="Image-skill mr-2" src={Team} alt="Team Work" />
+            <span className="Me-2">Team Work</span>
           </div>
           <a
             class="btn Hire-me mt-4"

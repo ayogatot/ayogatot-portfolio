@@ -6,23 +6,29 @@ a:hover {
   color: inherit;
 }
 
-.py-10 {
-  padding-top: 4rem !important;
-  padding-bottom: 4rem !important;
+.a-py-10 {
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
 }
 
 .Title {
   color: #f6f7fa;
 }
 
-.Me-1 {
+.Me-1,
+.Me-2 {
   font-family: "Poppins", sans-serif;
+}
+
+.Me-1 {
   font-size: 37pt;
   font-weight: bold;
 }
 
-.Me-2 {
-  font-family: "Poppins", sans-serif;
+.Me-3 {
+  font-family: "Raleway", sans-serif;
+  font-size: 12pt;
+  letter-spacing: 1px;
 }
 
 .About-P1 {
