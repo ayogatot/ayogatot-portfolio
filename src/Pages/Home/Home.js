@@ -2,6 +2,7 @@ import React, { Fragment } from "react";
 import Header from "../../Components/Header/Header";
 import Jumbotron from "../../Components/Jumbotron/Jumbotron";
 import AboutSection from "../../Components/About/About";
+import TechStack from "../../Components/Tech/Tech";
 
 import "./Home.css";
 function Home() {
@@ -15,7 +16,7 @@ function Home() {
         <AboutSection />
       </div>
       <div className="main-bg-1">
-        <Jumbotron />
+        <TechStack />
       </div>
     </Fragment>
   );
