@@ -1,9 +1,20 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 import { Row, Col, Container } from "reactstrap";
 import Phone from "../../assets/images/phone.jpg";
 import "./contact.css";
 
+import firebase from '../../Firebase'
+
 function Contact() {
+  const [data, setData] = useState(0)
+
+  useEffect(() => {
+    firebase.database().ref('/Caca/beratKotoran').on('value', snapshot => {
+      console.log(snapshot.val())
+      setData(snapshot.val())
+    })
+  }, [])
+
   return (
     <Container className="a-py-10">
       <Row>
@@ -53,6 +64,7 @@ function Contact() {
         </Col>
         <Col md="6">
           <p className="C2">Let me know here</p>
+          <p className="C2">{data}</p>
         </Col>
       </Row>
     </Container>
