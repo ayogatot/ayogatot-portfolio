@@ -18,10 +18,9 @@ function About() {
         <Col className="mx-auto Title" md="6">
           <p className="Me-1">About Me</p>
           <p className="Me-3">
-            Mobile and Web Developer from Indonesia with a passion for
-            challenging and learning everything. Still have 1+ years experience
-            but already hands on many project like Company Profile, Education
-            Apps, Admin Dashboard etc.
+            Mobile and Web Developer with a passion for challenging and learning
+            everything. Still have 3+ years experience but already hands on many
+            project like Ecommerce, Education Apps, Admin Dashboard etc.
           </p>
           <div className="d-flex align-items-center  pt-3">
             <img
@@ -44,8 +43,8 @@ function About() {
             <span className="Me-2">Team Work</span>
           </div>
           <a
-            class="btn Hire-me mt-4"
-            href="https://drive.google.com/file/d/1w_CPNy5ucgiZb8ttBeJQZcvE_fA2iJLz/view"
+            className="btn Hire-me mt-4"
+            href="https://drive.google.com/file/d/1zLtFJ-CpTMqTnCx9r2xXP2KYw09yRFNK/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -53,22 +52,22 @@ function About() {
           </a>
         </Col>
       </Row>
-      <Row className="pt-5">
+      {/* <Row className="pt-5">
         <Col className="mx-auto Title" md="8">
           <p className="About-P1">Any type of question &amp; discussion.</p>
           <p className="About-P2">Let's talk</p>
-          <a className="Contact" href="mailto:azerino25@gmail.com">
+          <span className="Contact" href="mailto:azerino25@gmail.com">
             azerino25@gmail.com
-          </a>
+          </span>
           <span className="Contact-2"> or </span>
-          <a
+          <span
             className="Contact"
             href="https://api.whatsapp.com/send?phone=62895360159807&text=Hello Azerino!"
           >
             +62 8953 6015 9807
-          </a>
+          </span>
         </Col>
-      </Row>
+      </Row> */}
     </Container>
   );
 }

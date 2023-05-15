@@ -7,7 +7,6 @@ import {
   Nav,
   NavItem,
   NavLink,
-  Button,
   Container,
 } from "reactstrap";
 import "./header.css";
@@ -40,9 +39,6 @@ function Header() {
               <NavLink target="_blank" href="https://github.com/ayogatot">
                 <span className="Nav-text">GitHub</span>
               </NavLink>
-            </NavItem>
-            <NavItem className="ml-2">
-              <Button className="Hire-me">Hire Me</Button>
             </NavItem>
           </Nav>
         </Collapse>

@@ -38,3 +38,26 @@
   text-decoration: none;
   color: #c26348;
 }
+
+.portfolio-title {
+  color: #f97e5d;
+}
+
+.portfolio-title:hover {
+  color: #c26348;
+  cursor: pointer;
+  transition: 1ms ease-in;
+}
+
+.portfolio-container {
+  min-height: 170px;
+}
+
+@media (max-width: 900px) {
+  .portfolio-container {
+    min-height: auto;
+  }
+  .C2 {
+    padding-top: 20px;
+  }
+}

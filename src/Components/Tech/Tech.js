@@ -39,12 +39,20 @@ function Tech() {
           <p className="Why-me">Why hire me for your project?</p>
         </Col>
         <Col md="6">
-          <p className="Must-me pt-3">
-            Honestly, I almost feel like the developing either{" "}
-            <span className="Must-span">Website</span> or{" "}
+          <p className="C3 pt-3">
+            I possess a comprehensive understanding of both
+            <span className="Must-span"> front-end </span> and
+            <span className="Must-span"> back-end </span> development, allowing
+            me to seamlessly work across the entire technology stack. This
+            versatility enables me to contribute to all aspects of a project,
+            from <span className="Must-span"> designing </span> and{" "}
+            <span className="Must-span"> implementing </span> user interfaces to
+            developing robust server-side logic.
+            {/* Honestly, I almost feel like the developing
+            either <span className="Must-span">Website</span> or{" "}
             <span className="Must-span">Mobile</span> was written with me in
             mind. Besides I like new technology, I'm also a fast learner and
-            dare to try something new.
+            dare to try something new. */}
           </p>
         </Col>
       </Row>
