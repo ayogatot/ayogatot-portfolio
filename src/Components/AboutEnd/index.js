@@ -16,7 +16,7 @@ function About() {
           <span className="Contact-2"> or </span>
           <span
             className="Contact"
-            href="https://api.whatsapp.com/send?phone=62895360159807&text=Hello Azerino!"
+            onClick={() => window.open("https://api.whatsapp.com/send?phone=62895360159807&text=Hello Azerino!", "_blank")}
           >
             +62 8953 6015 9807
           </span>
